@@ -3,7 +3,7 @@
 Plugin Name: Gravity Forms - Reject Spam Spammy TextArea Submissions
 Plugin URI: https://github.com/jkirker/gravityforms-reject-spammy-textarea
 Description: Invalidate form submissions based on spam phrase array
-Version: 1.0
+Version: 1.01
 Author: John Kirker Inc.
 Author URI: http://kirker.com
 License: GPL
@@ -90,7 +90,7 @@ if (isset($_POST['gform_submit'])) {
 			'ash0le',
 			'ash0les',
 			'asholes',
-			'ass',
+			' ass ',
 			'Ass Monkey',
 			'Assface',
 			'assh0le',
@@ -122,18 +122,18 @@ if (isset($_POST['gform_submit'])) {
 			'Clit',
 			'cnts',
 			'cntz',
-			'cock',
+			' cock ',
 			'cockhead',
 			'cock-head',
 			'cocks',
 			'CockSucker',
 			'cock-sucker',
 			'crap',
-			'cum',
+			' cum ',
 			'cunt',
 			'cunts',
 			'cuntz',
-			'dick',
+			' dick ',
 			'dild0',
 			'dild0s',
 			'dildo',
@@ -186,7 +186,6 @@ if (isset($_POST['gform_submit'])) {
 			'h00r',
 			'h0ar',
 			'h0re',
-			'hells',
 			'hoar',
 			'hoor',
 			'hoore',
