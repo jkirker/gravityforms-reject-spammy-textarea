@@ -65,6 +65,7 @@ if (isset($_POST['gform_submit'])) {
 	
 	function check_spamword_blacklist ($textarea) {
 		$spam_blacklist = array(
+			's.e.o.',
 			'seo',
 			'direct mail',
 			'direct marketing',
