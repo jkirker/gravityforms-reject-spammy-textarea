@@ -3,7 +3,7 @@
 Plugin Name: Gravity Forms - Reject Spam Spammy TextArea Submissions
 Plugin URI: https://github.com/jkirker/gravityforms-reject-spammy-textarea
 Description: Invalidate form submissions based on spam phrase array
-Version: 1.0
+Version: 1.01
 Author: John Kirker Inc.
 Author URI: http://kirker.com
 License: GPL
@@ -65,6 +65,7 @@ if (isset($_POST['gform_submit'])) {
 	
 	function check_spamword_blacklist ($textarea) {
 		$spam_blacklist = array(
+			's.e.o.',
 			'seo',
 			'direct mail',
 			'direct marketing',
